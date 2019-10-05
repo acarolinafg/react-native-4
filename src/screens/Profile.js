@@ -31,8 +31,8 @@ const profile = {
   "name": "Rafael Fuzifaru Cianci"
 }
 
-export default class Profile extends React.PureComponent {
-  fadeAnimation = new Animated.Value(0)
+export default class Profile extends React.Component {
+  fadeAnimation = new Animated.Value(0);
 
   state = {
     loading: true
@@ -193,13 +193,13 @@ const styles = StyleSheet.create({
   language: {
     backgroundColor: '#666',
     borderRadius: 50,
-    marginRight: 16,
+    marginRight: 10,
     marginTop: 8
   },
   languageText: {
     color: '#FFFFFF',
     fontSize: 14,
     padding: 5,
-    paddingHorizontal: 10
+    paddingHorizontal: 6
   }
 });
