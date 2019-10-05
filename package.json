@@ -14,6 +14,7 @@
     "preset": "jest-expo"
   },
   "dependencies": {
+    "@react-native-community/async-storage": "^1.6.1",
     "codenation-jest-score": "https://github.com/thecodenation/codenation-jest-score/tarball/master",
     "expo": "^33.0.0",
     "expo-camera": "~5.0.1",
